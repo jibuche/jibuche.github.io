@@ -1,0 +1,63 @@
+
+* {font-family: 'Pacifico', cursive;
+    font-family: 'Unbounded', cursive;}
+body {
+  margin: 1% auto;
+  margin-left: 2%;
+    background-color: rgb(252, 226, 243);
+  }
+  
+  .mis-datos {
+    position:relative;
+    }
+
+
+  .datos{
+  display: inline-block;
+   background: rgb(229, 197, 250);
+  position: relative;
+  left: 100px;
+}    
+  
+
+
+  .img {
+    position: relative;
+    left: 50px
+  }
+ 
+  .fotos {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+#imagen {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+
+
+.referencia-foto{
+  min-width: 300px;
+  max-width: 300px;
+  height: 200px;
+}
+
+.referencia-foto img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+#nuevo_boton{
+  border:1px solid red;
+  }
+
+  .gracias-por-tu-visita {
+    display: inline-block;
+     position: relative;
+  left: 100px;
+  }
